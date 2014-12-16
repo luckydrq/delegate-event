@@ -1,0 +1,26 @@
+{
+  "name": "delegate-event",
+  "version": "0.1.0",
+  "author": "luckydrq<drqzju@gmail.com>",
+  "keywords": [
+    "delegate",
+    "event",
+    "delegator"
+  ],
+  "maintainers": [
+    {
+      "name": "luckydrq",
+      "email": "drqzju@gmail.com"
+    }
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test DEBUG=delegate-event mocha --reporter spec --timeout 3000 test/*.test.js"
+  },
+  "devDependencies": {
+    "mocha": "~2.0.1"
+  },
+  "dependencies": {
+    "debug": "~2.1.0"
+  }
+}
