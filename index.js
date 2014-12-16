@@ -1,5 +1,5 @@
 /**!
- * delegate-event.test.js - test/delegate-event.test.js
+ * index.js
  *
  * Copyright(c) 2014 luckydrq Holding Limited.
  * Authors:
